@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cobina's Tiny Bird Dance Floor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage folk-mode strawberry-mode party" aria-label="An animated bird dance floor for Cobina">
+      <canvas id="sky" aria-hidden="true"></canvas>
+      <audio id="song" preload="metadata" loop>
+        <source src="./strawberry-wine.mp3" type="audio/mpeg" />
+      </audio>
+
+      <section class="show-panel" aria-live="polite">
+        <div class="name-row">
+          <span class="spark" aria-hidden="true"></span>
+          <h1>For Cobina</h1>
+          <span class="spark" aria-hidden="true"></span>
+        </div>
+        <p class="tagline">
+          A tiny bird dance floor with a folk-pop heartbeat, built just for you.
+        </p>
+
+        <div class="controls" aria-label="Music control">
+          <button id="startShow" class="primary" type="button">
+            <span class="play-icon" aria-hidden="true"></span>
+            Tap to begin music
+          </button>
+        </div>
+
+        <p id="message" class="message">
+          Strawberry Wine glow, Cobina dancing, and her birds keeping the beat.
+        </p>
+        <p class="now-playing">Now playing: Strawberry Wine by Noah Kahan</p>
+      </section>
+
+      <section class="floor" aria-label="Dancing pet birds">
+        <div class="audience" aria-hidden="true">
+          <span class="fan fan-1"><i></i></span>
+          <span class="fan fan-2 phone"><i></i></span>
+          <span class="fan fan-3"><i></i></span>
+          <span class="fan fan-4 phone"><i></i></span>
+          <span class="fan fan-5"><i></i></span>
+          <span class="fan fan-6 phone"><i></i></span>
+          <span class="fan fan-7"><i></i></span>
+          <span class="fan fan-8"><i></i></span>
+        </div>
+        <div class="spotlight left"></div>
+        <div class="spotlight right"></div>
+        <div class="guitar" aria-hidden="true">
+          <span class="guitar-neck"></span>
+          <span class="guitar-body"></span>
+          <span class="guitar-hole"></span>
+          <span class="guitar-strings"></span>
+        </div>
+        <div class="cobina-cameo" aria-hidden="true">
+          <span class="cameo-hair"></span>
+          <span class="cameo-face"></span>
+          <span class="cameo-bangs"></span>
+          <span class="cameo-top"></span>
+          <span class="cameo-necklace"></span>
+          <span class="cameo-legs"></span>
+          <span class="cameo-shadow"></span>
+        </div>
+
+        <article class="bird bird-a" aria-label="A dancing blue bird">
+          <span class="wing left-wing"></span>
+          <span class="body"></span>
+          <span class="wing right-wing"></span>
+          <span class="head">
+            <span class="eye"></span>
+            <span class="beak"></span>
+          </span>
+          <span class="feet"></span>
+        </article>
+
+        <article class="bird bird-b" aria-label="A dancing coral bird">
+          <span class="wing left-wing"></span>
+          <span class="body"></span>
+          <span class="wing right-wing"></span>
+          <span class="head">
+            <span class="eye"></span>
+            <span class="beak"></span>
+          </span>
+          <span class="feet"></span>
+        </article>
+
+        <article class="bird bird-c" aria-label="A dancing green bird">
+          <span class="wing left-wing"></span>
+          <span class="body"></span>
+          <span class="wing right-wing"></span>
+          <span class="head">
+            <span class="eye"></span>
+            <span class="beak"></span>
+          </span>
+          <span class="feet"></span>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
